@@ -1,0 +1,424 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		42FE64151BCE2DDC002DD84E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE64141BCE2DDC002DD84E /* AppDelegate.swift */; };
+		42FE64171BCE2DDC002DD84E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE64161BCE2DDC002DD84E /* ViewController.swift */; };
+		42FE641A1BCE2DDC002DD84E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42FE64181BCE2DDC002DD84E /* Main.storyboard */; };
+		42FE641C1BCE2DDC002DD84E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FE641B1BCE2DDC002DD84E /* Images.xcassets */; };
+		42FE641F1BCE2DDC002DD84E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FE641D1BCE2DDC002DD84E /* LaunchScreen.xib */; };
+		42FE642B1BCE2DDC002DD84E /* AprioriAlgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE642A1BCE2DDC002DD84E /* AprioriAlgoTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		42FE64251BCE2DDC002DD84E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 42FE64071BCE2DDC002DD84E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 42FE640E1BCE2DDC002DD84E;
+			remoteInfo = AprioriAlgo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		42FE640F1BCE2DDC002DD84E /* AprioriAlgo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AprioriAlgo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FE64131BCE2DDC002DD84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FE64141BCE2DDC002DD84E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42FE64161BCE2DDC002DD84E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42FE64191BCE2DDC002DD84E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42FE641B1BCE2DDC002DD84E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		42FE641E1BCE2DDC002DD84E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		42FE64241BCE2DDC002DD84E /* AprioriAlgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AprioriAlgoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		42FE64291BCE2DDC002DD84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42FE642A1BCE2DDC002DD84E /* AprioriAlgoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprioriAlgoTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42FE640C1BCE2DDC002DD84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FE64211BCE2DDC002DD84E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		42FE64061BCE2DDC002DD84E = {
+			isa = PBXGroup;
+			children = (
+				42FE64111BCE2DDC002DD84E /* AprioriAlgo */,
+				42FE64271BCE2DDC002DD84E /* AprioriAlgoTests */,
+				42FE64101BCE2DDC002DD84E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		42FE64101BCE2DDC002DD84E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42FE640F1BCE2DDC002DD84E /* AprioriAlgo.app */,
+				42FE64241BCE2DDC002DD84E /* AprioriAlgoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42FE64111BCE2DDC002DD84E /* AprioriAlgo */ = {
+			isa = PBXGroup;
+			children = (
+				42FE64141BCE2DDC002DD84E /* AppDelegate.swift */,
+				42FE64161BCE2DDC002DD84E /* ViewController.swift */,
+				42FE64181BCE2DDC002DD84E /* Main.storyboard */,
+				42FE641B1BCE2DDC002DD84E /* Images.xcassets */,
+				42FE641D1BCE2DDC002DD84E /* LaunchScreen.xib */,
+				42FE64121BCE2DDC002DD84E /* Supporting Files */,
+			);
+			path = AprioriAlgo;
+			sourceTree = "<group>";
+		};
+		42FE64121BCE2DDC002DD84E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42FE64131BCE2DDC002DD84E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		42FE64271BCE2DDC002DD84E /* AprioriAlgoTests */ = {
+			isa = PBXGroup;
+			children = (
+				42FE642A1BCE2DDC002DD84E /* AprioriAlgoTests.swift */,
+				42FE64281BCE2DDC002DD84E /* Supporting Files */,
+			);
+			path = AprioriAlgoTests;
+			sourceTree = "<group>";
+		};
+		42FE64281BCE2DDC002DD84E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				42FE64291BCE2DDC002DD84E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42FE640E1BCE2DDC002DD84E /* AprioriAlgo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FE642E1BCE2DDC002DD84E /* Build configuration list for PBXNativeTarget "AprioriAlgo" */;
+			buildPhases = (
+				42FE640B1BCE2DDC002DD84E /* Sources */,
+				42FE640C1BCE2DDC002DD84E /* Frameworks */,
+				42FE640D1BCE2DDC002DD84E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AprioriAlgo;
+			productName = AprioriAlgo;
+			productReference = 42FE640F1BCE2DDC002DD84E /* AprioriAlgo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		42FE64231BCE2DDC002DD84E /* AprioriAlgoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42FE64311BCE2DDC002DD84E /* Build configuration list for PBXNativeTarget "AprioriAlgoTests" */;
+			buildPhases = (
+				42FE64201BCE2DDC002DD84E /* Sources */,
+				42FE64211BCE2DDC002DD84E /* Frameworks */,
+				42FE64221BCE2DDC002DD84E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				42FE64261BCE2DDC002DD84E /* PBXTargetDependency */,
+			);
+			name = AprioriAlgoTests;
+			productName = AprioriAlgoTests;
+			productReference = 42FE64241BCE2DDC002DD84E /* AprioriAlgoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42FE64071BCE2DDC002DD84E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = Mohsin;
+				TargetAttributes = {
+					42FE640E1BCE2DDC002DD84E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					42FE64231BCE2DDC002DD84E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 42FE640E1BCE2DDC002DD84E;
+					};
+				};
+			};
+			buildConfigurationList = 42FE640A1BCE2DDC002DD84E /* Build configuration list for PBXProject "AprioriAlgo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42FE64061BCE2DDC002DD84E;
+			productRefGroup = 42FE64101BCE2DDC002DD84E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42FE640E1BCE2DDC002DD84E /* AprioriAlgo */,
+				42FE64231BCE2DDC002DD84E /* AprioriAlgoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42FE640D1BCE2DDC002DD84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FE641A1BCE2DDC002DD84E /* Main.storyboard in Resources */,
+				42FE641F1BCE2DDC002DD84E /* LaunchScreen.xib in Resources */,
+				42FE641C1BCE2DDC002DD84E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FE64221BCE2DDC002DD84E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42FE640B1BCE2DDC002DD84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FE64171BCE2DDC002DD84E /* ViewController.swift in Sources */,
+				42FE64151BCE2DDC002DD84E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		42FE64201BCE2DDC002DD84E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42FE642B1BCE2DDC002DD84E /* AprioriAlgoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		42FE64261BCE2DDC002DD84E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 42FE640E1BCE2DDC002DD84E /* AprioriAlgo */;
+			targetProxy = 42FE64251BCE2DDC002DD84E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		42FE64181BCE2DDC002DD84E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FE64191BCE2DDC002DD84E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42FE641D1BCE2DDC002DD84E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42FE641E1BCE2DDC002DD84E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42FE642C1BCE2DDC002DD84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42FE642D1BCE2DDC002DD84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42FE642F1BCE2DDC002DD84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AprioriAlgo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		42FE64301BCE2DDC002DD84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AprioriAlgo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		42FE64321BCE2DDC002DD84E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AprioriAlgoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AprioriAlgo.app/AprioriAlgo";
+			};
+			name = Debug;
+		};
+		42FE64331BCE2DDC002DD84E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AprioriAlgoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AprioriAlgo.app/AprioriAlgo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42FE640A1BCE2DDC002DD84E /* Build configuration list for PBXProject "AprioriAlgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FE642C1BCE2DDC002DD84E /* Debug */,
+				42FE642D1BCE2DDC002DD84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42FE642E1BCE2DDC002DD84E /* Build configuration list for PBXNativeTarget "AprioriAlgo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FE642F1BCE2DDC002DD84E /* Debug */,
+				42FE64301BCE2DDC002DD84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		42FE64311BCE2DDC002DD84E /* Build configuration list for PBXNativeTarget "AprioriAlgoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42FE64321BCE2DDC002DD84E /* Debug */,
+				42FE64331BCE2DDC002DD84E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42FE64071BCE2DDC002DD84E /* Project object */;
+}
