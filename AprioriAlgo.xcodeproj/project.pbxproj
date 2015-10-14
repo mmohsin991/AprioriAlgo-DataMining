@@ -13,6 +13,7 @@
 		42FE641C1BCE2DDC002DD84E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42FE641B1BCE2DDC002DD84E /* Images.xcassets */; };
 		42FE641F1BCE2DDC002DD84E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42FE641D1BCE2DDC002DD84E /* LaunchScreen.xib */; };
 		42FE642B1BCE2DDC002DD84E /* AprioriAlgoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE642A1BCE2DDC002DD84E /* AprioriAlgoTests.swift */; };
+		42FE64351BCE2E20002DD84E /* AprioriAlgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42FE64341BCE2E20002DD84E /* AprioriAlgo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		42FE64241BCE2DDC002DD84E /* AprioriAlgoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AprioriAlgoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		42FE64291BCE2DDC002DD84E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		42FE642A1BCE2DDC002DD84E /* AprioriAlgoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprioriAlgoTests.swift; sourceTree = "<group>"; };
+		42FE64341BCE2E20002DD84E /* AprioriAlgo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AprioriAlgo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				42FE64141BCE2DDC002DD84E /* AppDelegate.swift */,
 				42FE64161BCE2DDC002DD84E /* ViewController.swift */,
+				42FE64341BCE2E20002DD84E /* AprioriAlgo.swift */,
 				42FE64181BCE2DDC002DD84E /* Main.storyboard */,
 				42FE641B1BCE2DDC002DD84E /* Images.xcassets */,
 				42FE641D1BCE2DDC002DD84E /* LaunchScreen.xib */,
@@ -214,6 +217,7 @@
 			files = (
 				42FE64171BCE2DDC002DD84E /* ViewController.swift in Sources */,
 				42FE64151BCE2DDC002DD84E /* AppDelegate.swift in Sources */,
+				42FE64351BCE2E20002DD84E /* AprioriAlgo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
